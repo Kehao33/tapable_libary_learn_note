@@ -1,0 +1,1 @@
+const b = () => console.log("1bbb")
