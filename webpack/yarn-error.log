@@ -1,0 +1,39 @@
+Arguments: 
+  E:\webDev\nodejs\node.exe E:\webDev\nodejs\node_global\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;E:\Python27\;E:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Program Files\Git\cmd;E:\Program Files\Java\jdk1.8.0_121\bin;E:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Users\jake\AppData\Local\Microsoft\WindowsApps;E:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\nodejs;%NVM_HOME%;E:\webDev\nodejs\node_global;%ANDROID_HOME\tools;E:\Android\androidSDK\platform-tools;E:\Android\androidSDK\emulator;E:\Android\androidSDK\tools\bin;E:\softWare\pairWise\;E:\webDev\yarn_global_cache\bin;E:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\Go\bin;E:\Program Files\OpenSSL-Win64\bin;C:\Users\jake\AppData\Local\Microsoft\WindowsApps;E:\webDev\nodejs\node_global;E:\webDev\nvm;E:\webDev\nodejs;E:\Program Files\MongoDB\Server\4.2\bin;E:\softWare\Bandizip6.25\;E:\Program Files\MySQL\MySQL Server 8.0\bin;E:\webDev\yarn_global_cache\bin;C:\Users\jake\AppData\Local\Microsoft\WindowsApps;E:\Programs\Microsoft VS Code\bin;C:\Users\jake\go\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.17.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+
+npm manifest: 
+  {
+    "name": "webpack-dev",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "webpack": "^4.27.1",
+      "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+      "less": "^3.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
